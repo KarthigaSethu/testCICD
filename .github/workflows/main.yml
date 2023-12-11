@@ -23,4 +23,5 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m pytest main/Test/__init__.py
+        python -m unittest discover -s main/Test -p '__init__.py' -t main
+
