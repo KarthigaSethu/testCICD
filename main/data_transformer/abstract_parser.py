@@ -114,7 +114,7 @@ class Parser:
         :return: None
         """
         expression_collection.append(function)
-        #self.__parsed_expression_collection__.append(expression_collection)
+        self.__parsed_expression_collection__.append(expression_collection)
 
     def __validate_and_convert_operand__(self, first_term, second_term):
         """
